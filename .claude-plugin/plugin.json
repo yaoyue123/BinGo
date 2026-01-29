@@ -1,0 +1,40 @@
+{
+  "name": "bingo",
+  "description": "Binary vulnerability mining toolkit using Joern CPG and taint analysis",
+  "version": "4.1.0",
+  "author": {
+    "name": "BinGo Contributors",
+    "email": "noreply@anthropic.com"
+  },
+  "homepage": "https://github.com/your-org/bingo",
+  "repository": "https://github.com/your-org/bingo",
+  "license": "Apache-2.0",
+  "keywords": [
+    "binary-analysis",
+    "security",
+    "vulnerability",
+    "joern",
+    "cpg",
+    "taint-analysis",
+    "reverse-engineering",
+    "code-property-graph",
+    "binary-exploitation",
+    "elf",
+    "pe",
+    "mach-o"
+  ],
+  "skills": [
+    "binary-analysis",
+    "cpg-construction",
+    "source-sink-discovery",
+    "taint-analysis",
+    "vuln-audit",
+    "vuln-reporting",
+    "binary-vuln-assessment",
+    "joern-automation",
+    "binary-poc-generator"
+  ],
+  "requires": {
+    "joern": ">=0.4.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "bingo-dev",
+  "description": "Development marketplace for BinGo binary vulnerability analysis toolkit",
+  "owner": {
+    "name": "BinGo Contributors",
+    "email": "noreply@anthropic.com"
+  },
+  "plugins": [
+    {
+      "name": "bingo",
+      "description": "Binary vulnerability mining toolkit using Joern CPG and taint analysis. Detects buffer overflows, format strings, command injection, and integer overflows in compiled binaries.",
+      "version": "4.1.0",
+      "source": "./",
+      "author": {
+        "name": "BinGo Contributors",
+        "email": "noreply@anthropic.com"
+      },
+      "keywords": [
+        "binary-analysis",
+        "security",
+        "vulnerability",
+        "joern",
+        "cpg",
+        "taint-analysis",
+        "reverse-engineering"
+      ]
+    }
+  ]
+}

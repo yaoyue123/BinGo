@@ -1,0 +1,38 @@
+{
+  "joern": {
+    "max_heap_size": "auto",
+    "auto_detect": true,
+    "fallback_paths": [
+      "~/joern",
+      "~/bin/joern-cli",
+      "/opt/joern",
+      "/usr/local/joern"
+    ],
+    "min_version": "1.1.0"
+  },
+  "analysis": {
+    "default_output_dir": "./bingo_output",
+    "auto_discover_sources": true,
+    "min_cpg_nodes": 100,
+    "timeout_minutes": 60,
+    "parallel_flows": 4
+  },
+  "reporting": {
+    "format": "markdown",
+    "include_poc": true,
+    "severity_threshold": "low",
+    "include_executive_summary": true,
+    "include_remediation_priority": true
+  },
+  "user_experience": {
+    "show_progress": true,
+    "explain_steps": true,
+    "offer_suggestions": true,
+    "verbose_errors": true
+  },
+  "audit": {
+    "strict_mode": true,
+    "require_all_5_checks": true,
+    "allow_partial_flows": false
+  }
+}
